@@ -5,7 +5,7 @@
 	box-sizing: border-box;
 }
 .hero{
-	height: 51vh;
+	height: 67vh;
 	width: 100%;
 	background-color: #101010;
 	background-size: cover;
@@ -179,15 +179,15 @@ button:hover{
 	min-height: 400px;
 }
 .card{
-	height: 365px;
-	width: 335px;
-	padding: 20px 35px;
-	background: #191919;
-	border-radius: 20px;
-	margin: 15px;
-	position: relative;
-	overflow: hidden;
-	text-align: center;
+    height: 543px;
+    width: 335px;
+    padding: 20px 35px;
+    background: #191919;
+    border-radius: 20px;
+    margin: 15px;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
 }
 .card i{
 	font-size: 50px;
@@ -209,14 +209,16 @@ h5{
 	margin-bottom: 25px;
 }
 .card .button{
-	background-color:#f9004d;
-	color: white;
-	text-decoration: none;
-	border: 2px solid transparent;
-	font-weight: bold;
-	padding: 9px 22px;
-	border-radius: 30px;
-	transition: .4s; 
+    background-color: #f9004d;
+    color: white;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 9px 22px;
+    border-radius: 30px;
+    transition: .4s;
+    position: relative;
+    bottom: 1px;
 }
 .card .button:hover{
 	background-color: transparent;
@@ -301,4 +303,93 @@ footer p:nth-child(2){
 	color:#f9004d;
 	bottom: 35px;
 	font-size: 14px; 
+}
+.html img{
+    width: 141px;
+    position: relative;
+    bottom: 40px;
+    right: -58px;
+    border: 3px solid #73AD21;
+}
+
+.css img{
+
+    width: 141px;
+    position: relative;
+    bottom: 40px;
+    right: -151px;
+    border: 3px solid #73AD21;
+
+
+}
+.csharp img{
+
+    width: 141px;
+    position: relative;
+    bottom: -149px;
+    right: 97px;
+    border: 3px solid #73AD21;}
+
+.php img{
+	
+    height: 139px;
+
+    width: 141px;
+    position: relative;
+    bottom: -149px;
+    right: 0px;
+    border: 3px solid #73AD21;
+}
+.vb img{
+
+	width: 141px;
+    position: relative;
+    bottom: 40px;
+    right: 37px;
+    border: 3px solid #73AD21;
+}
+.python img{
+
+	width: 141px;
+    position: relative;
+    bottom: -150px;
+    right: 56px;
+    border: 3px solid #73AD21;
+}
+.django img{
+
+	width: 141px;
+    position: relative;
+    bottom: 40px;
+    right: 75px;
+    border: 3px solid #73AD21;
+}
+
+.Thesis img{
+
+    width: 230px;
+    position: relative;
+    bottom: 6px;
+    right: 12px;
+    border: 3px solid #73AD21;
+}
+.Dj img{
+
+	width: 217px;
+    position: relative;
+    bottom: 11px;
+    right: -2px;
+    border: 3px solid #73AD21;
+}
+.Rps img{
+
+    width: 228px;
+    position: relative;
+    bottom: 6px;
+    right: 6px;
+    border: 3px solid #73AD21;
+}
+body
+{
+background-color: #000;
 }
